@@ -1,4 +1,11 @@
-![[preamble]]
+$$
+\newcommand{\scal}[1]{#1}                 % 标量
+\newcommand{\vect}[1]{\mathbf{#1}}        % 向量 (英文字母)
+\newcommand{\vectg}[1]{\boldsymbol{#1}}   % 向量 (希腊字母)
+\newcommand{\matr}[1]{\mathbf{#1}}        % 矩阵
+\newcommand{\matri}[1]{\boldsymbol{#1}}   % 矩阵 (斜体)
+\newcommand{\tens}[1]{\bm{\mathsf{#1}}}   % 张量
+$$
 # LaTeX基础
 [LaTeX --- 维基百科, 自由的百科全书](https://zh.wikipedia.org/wiki/LaTeX)
 [LaTeX数学符号手册（中文版）](https://lixingcong.github.io/2016/04/04/LaTex-intro/)

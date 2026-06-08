@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
   pageTitle: Quartz 5
-  pageTitleSuffix: ""
+  pageTitleSuffix: " - 白鹭的笔记"
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -250,11 +250,7 @@ plugins:
   - source: github:quartz-community/note-properties
     enabled: true
     options:
-      includeAll: false
-      includedProperties:
-        - description
-        - tags
-        - aliases
+      includeAll: true
       excludedProperties: []
       hidePropertiesView: false
       delimiters: ---

@@ -1,6 +1,9 @@
 ---
-
+title: 主页
+quartz-properties: false
+quartz-properties-collapse: false  
 ---
 
-![[目录]]
-![[README]]
+![[README]]  
+
+![[目录]]  

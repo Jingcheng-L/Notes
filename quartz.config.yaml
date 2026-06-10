@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: 白鹭的笔记
   pageTitleSuffix: " - 白鹭的笔记"
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: zh-CN
   baseUrl: jingchengl.github.io
   ignorePatterns:
     - private
@@ -177,7 +177,7 @@ plugins:
       groupOptions:
         grow: true
   - source: github:quartz-community/backlinks
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 50
@@ -231,8 +231,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        豫ICP备2024070868号: https://beian.miit.gov.cn/
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
